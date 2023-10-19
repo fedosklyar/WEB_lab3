@@ -443,12 +443,12 @@ body{
         height: 10vh;
         text-align: center;
         align-items: center;
-        font-size: 3.5vh;    
+        font-size: 2.5vh;    
     }
 
     .Icon
     {
-        width: 11vw;
+        width: 20vw;
         height: 16vh;
     }
 
@@ -496,28 +496,29 @@ body{
 
     .Cover{
         height: 42vh;
-        width: 23vw;
+        width: 35vw;
     }
 
     .meme{
-        height: 40vh;
-        width: 38vw;
+        height: 32vh;
+        width: 42vw;
     }
 
     .Paragraph{
-        font-size: 2.5vh;
+        font-size: 1.8vh;
     }
     
 
     .menu{
-        flex-direction: row;
-        justify-content: space-around;
+        display: grid;
+        place-items: center;
+        grid-template-columns: 50% 50%;
     }
 
     .Page{
         display: grid;
-        font-size: 3vh;
-        width: 18vw;
+        font-size: 2.5vh;
+        width: 28vw;
         height: 8vh;
         text-align: center;
         align-items: center;
@@ -526,8 +527,8 @@ body{
 
 
     .God_Image{
-        height: 55vh;
-        width: 37vw;
+        height: 45vh;
+        width: 42vw;
     }
 
     .Dot{
@@ -553,7 +554,7 @@ body{
 
     .Bastion{
         height: 42vh;
-        width: 30vw;
+        width: 37vw;
     }
 
     .Games{
@@ -571,18 +572,18 @@ body{
     }
     
     .Platinum{
-        width: 30vw;
+        width: 37vw;
     }
     
 
     .Skelly{
-        width: 35vw;
+        width: 45vw;
         height: 44vh;
     }
 
     .Awards{
         height: 25vh;
-        width: 55vw;
+        width: 75vw;
     }
 
     .header{
